@@ -185,7 +185,7 @@
         SonicCacheItem *cacheItem = [[SonicCache shareCache] cacheForSession:self.sessionID];
         if (![cacheItem isCacheExpired]) {
             SonicLogEvent(@"SonicSession.start finish:session(%@) is under cache expired.", self.sessionID);
-            return;
+//            return;
         }
     }
     
